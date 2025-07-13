@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Siddharth Jain
+% Inspired by: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{mwe} % for blindtext and example-image-a in example
+\usepackage{wrapfig}
+\usepackage{setspace} % for line spacing
+
+\input{glyphtounicode}
+
+% Custom font
+\usepackage{times}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[margin=0.20in]{geometry}
+
+% Set line spacing
+\setstretch{0.9}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------%
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{\fontsize{10}{11}\selectfont
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\ 
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{#1} & \textit{#2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {\small#1} & {\small#2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.10in, label={}]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.20in]}
+
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+\definecolor{Green}{RGB}{83, 129, 53}
+\definecolor{Blue}{RGB}{68, 114, 196}
+
+%Section Format
+\titleformat{\section}{\color{Green} \fontsize{16}{18}\bfseries
+  \vspace{-6pt}\raggedright
+}{}{0em}{}[\color{Black}\titlerule\vspace{-4pt}]
+
+\newcommand{\projectHeadingColor}{\color{Blue}}
+\newcommand{\github}{\color{Blue}\textbf{GitHub}}
+
+\begin{document}
+
+%-------------------------------------------%
+%%%%%%  RESUME STARTS HERE  %%%%%
+
+%----------HEADING----------%
+\begin{tabularx}{\textwidth}{@{} X r @{}}
+    \begin{minipage}[t]{\textwidth}
+        \href{https://www.linkedin.com/in/sjain166}{{\color{Blue}\textbf{\Huge \scshape Siddharth Jain}}}
+         \hfill 
+       \href{sj99@illinois.edu}{\textbf{Email:} \color{Blue}\textit{sj99@illinois.edu}}  $|$ 
+        \textbf{Phone:} {\color{Blue} +1 (602) 596-7491} \\[0.5em]
+        \textbf{Seeking Backend Engineer Role} \hfill
+        \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sjain166}{\color{Blue}\textit{/in/sjain166}} $|$ \textbf{GitHub:} \href{https://github.com/sjain166}{\color{Blue}\textit{/sjain166}} \\[0.5em] \hfill
+        % \textbf{Urbana, IL (Open To Relocation)} \\[0.2em] \hfill
+    \end{minipage}
+\end{tabularx}
+
+\vspace{-1em}
+
+%-----------EDUCATION-----------%
+\section{\fontsize{14}{12}\selectfont EDUCATION}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+    {University of Illinois Urbana-Champaign (UIUC)}{Expected: December 2025}
+    {Master of Computer Science}{}
+    \resumeItemListStart
+        \resumeItem{Courses Taken: Advanced Distributed Computing, Computer Security, Cloud Networking, Deep Learning For Computer Vision}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Arizona State University (ASU)}{August 2020 -- May 2024}
+    {Bachelor of Science in Computer Science}{4.00 GPA}
+    \resumeItemListStart
+        \resumeItem{Courses Taken: Distributed Systems, Software Design Principles, Operating Systems, Data Structures \& Algorithms, Computer Networks}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\vspace{-1em}
+
+%-----------EXPERIENCE-----------%
+\section{WORK EXPERIENCE}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Backend Engineer Intern}{May 2025 -- Current}
+    {PayPal Inc. (Credits Teams - Buy Now Pay Later)}{Scottsdale, AZ}
+    \resumeItemListStart
+        \resumeItem{Engineering \textbf{Spring Batch} pipeline to automate reconciliation of over \textbf{6.5M+} failed financial events, reducing manual \textbf{SQL} fixes.}
+        \resumeItem{Implementing event requeue logic based on lifecycle state transitions and timestamps to ensure correctness and idempotency at scale.}
+        \resumeItem{Troubleshooting \textbf{QA failures} using distributed log analysis and event state inspection; validating batch behavior across systems.}
+        \resumeItem{Writing unit and integrated tests using \textbf{JUnit, Mockito, and WireMock} for end-to-end validation; building observability dashboards.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {Cloud/DevOps Engineer}{January 2025 -- April 2025}
+    {Nexus}{Remote, USA}
+    \resumeItemListStart
+        \resumeItem{Defined \textbf{AWS architecture} for multi-user coding platform, enabling CI/CD, \textbf{ECS scaling}, and region-based production readiness.}
+        \resumeItem{Reduced deployment time by 90\% with \textbf{3 GitHub → CodeBuild CI/CD pipelines} for frontend, backend, and infrastructure.}
+        \resumeItem{Refactored EC2-based stack to serverless AWS \textbf{(ECS, EFS, S3, Route53, DynamoDB)} with CDK, reducing infra overhead by 30\%.}
+        \resumeItem{Delivered production-ready deployment in 6 weeks by aligning infra roadmap with dev workflows and cross-team priorities.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Software Development Engineer Intern}{May 2023 -- August 2023}
+    {Amazon.com (3rd Party Payments Team)}{San Diego, CA}
+    \resumeItemListStart
+        \resumeItem{Built automated orchestration with \textbf{Lambda, SQS, Java \& TypeScript} to back-fill a million records, saving developer time by 99\%.}
+        \resumeItem{Architected 1-click reusable cloud stack using \textbf{AWS:CDK} to perform batching for downstream services with rate-limited TPS.}
+        \resumeItem{Constructed robust error handling mechanism with \textbf{automated retries} for transient errors reducing failure, ensuring 100\% data integrity.}
+        \resumeItem{Tested system end-to-end using JUnit5 achieving 100\% code coverage. Deployed real-time monitoring dashboard using \textbf{CloudWatch}.}
+    \resumeItemListEnd
+      
+\resumeSubHeadingListEnd
+
+\vspace{-1em}
+
+%-----------PROJECTS-----------%
+\section{PROJECTS}
+\resumeSubHeadingListStart
+    
+    \resumeProjectHeading
+    {\projectHeadingColor\textbf{Banking Easy} $|$ {Network Engineer} $|$ \emph{\color{Black}Java, Network Programming, Sockets, TCP/IP}}{}
+    \resumeItemListStart
+        \resumeItem{Implemented P2P banking application in \textbf{Java (Sockets)} leveraging \textbf{network programming} to perform parallel processing transactions.}
+        \resumeItem{Created a shared customer cohort with a bank to perform 100+ transactions and update the system state in real-time.}
+        \resumeItem{Reduced error rates by 30\% by deploying advanced checkpoint and rollback algorithms, managing transaction conflicts, data corruption, and network failures.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\projectHeadingColor\textbf{360Torrent} $|$ {Distributed Systems Engineer} $|$ \emph{\color{Black} Python (asyncio), Ansible, tmux, P2P Systems, BitTorrent}}{}
+    \resumeItemListStart
+        \resumeItem{Developed a \textbf{Python-based P2P CDN} for 360° video, reducing download latency by 42\% via geo-aware chunk prioritization.}
+        \resumeItem{Designed churn-resilient downloader using \textbf{asyncio}, adaptive health checks, and rarest-first strategy; improved reliability by 35\%.}
+        \resumeItem{Deployed system on 20 VMs using \textbf{tmux, tc, and Ansible,} simulating 100+ clients with region-aware network conditions.}
+        \resumeItem{Integrated popularity matrix at tracker; pre-seeded hot chunks across peers, cutting startup latency by 28\%.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\projectHeadingColor\textbf{Study Buddy} $|$ {Full-Stack iOS Developer} $|$ \emph{\color{Black}SwiftUI, Firebase, CoreData, C\#}}{}
+    \resumeItemListStart
+        \resumeItem{Engineered an \textbf{iOS app} leveraging \textbf{MVVM} to facilitate collaboration by providing a platform to search, create, and join study sessions.}
+        \resumeItem{Established \textbf{Firebase-Auth}, offering users sign-in options via Email, Google, and Apple for enhanced authentication flexibility.}
+        \resumeItem{Implemented local \textbf{(CoreData)} and cloud \textbf{(Firestore)} data storage, ensuring seamless data retention and optimized retrieval processes.}
+        \resumeItem{Integrated \textbf{MapKit} to allow users to set study session locations. Streamlined navigation process, ensuring accuracy within a 10m range.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-1em}
+
+%-----------SKILLS-----------%
+\section{SKILLS}
+{\fontsize{10}{12}\selectfont
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{@{\hspace{0.10in}}p{4cm}X@{}}
+    \textbf{Languages:} & Python, Java, C/C++, TypeScript, JavaScript \\
+    \textbf{Backend \& Systems:} & Spring Batch, MySQL, JDBC, Git, JUnit, Linux, XML, JSON \\
+    \textbf{Distributed Systems:} & AWS \{CDK, Lambda, SQS, S3, ECS, EFS, EC2, RDS, API-Gateway, CloudWatch\} \\
+    \textbf{Authentication \& Tools:} & Firebase \{Auth, Firestore\}, RESTful APIs, Ansible, tmux, CoreML, CocoaPods
+\end{tabularx}
+} 
+
+\vspace{-1em}
+
+%-------------------------------------------%
+\end{document}
