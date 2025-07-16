@@ -1,7 +1,7 @@
-PWD /Users/sidpro/Desktop/WorkPlace/resume_latext/meta_prod
+PWD /Users/sidpro/Desktop/WorkPlace/resume_latext/palantir_prod
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/sidpro/Desktop/WorkPlace/resume_latext/meta_prod/Resume_Siddharth_Jain.tex
+INPUT /Users/sidpro/Desktop/WorkPlace/resume_latext/palantir_prod/Resume_Siddharth_Jain.tex
 OUTPUT Resume_Siddharth_Jain.log
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls

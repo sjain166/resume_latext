@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1752443797.7901 "/Users/sidpro/Desktop/WorkPlace/resume_latext/master/master-resume.tex" "master-resume.pdf" "master-resume" 1752443798.45813 0
-  "/Users/sidpro/Desktop/WorkPlace/resume_latext/master/master-resume.tex" 1752443797.56335 14795 389848007c97057a5babf199100d942b ""
+["pdflatex"] 1752550218.15745 "/Users/sidpro/Desktop/WorkPlace/resume_latext/master/master-resume.tex" "master-resume.pdf" "master-resume" 1752550218.72704 0
+  "/Users/sidpro/Desktop/WorkPlace/resume_latext/master/master-resume.tex" 1752550217.92318 14834 3421c723b9c81dbbe79e7be541441ec1 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741388039 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1741388039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -119,9 +119,9 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1741388039 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
-  "master-resume.aux" 1752443798.40669 738 1268c76b6c184d1a0f5674b452b9f947 "pdflatex"
-  "master-resume.out" 1752443798.40728 365 bb7f26532df143b1f61e142a44d5e00a "pdflatex"
-  "master-resume.tex" 1752443797.56335 14795 389848007c97057a5babf199100d942b ""
+  "master-resume.aux" 1752550218.67704 738 1268c76b6c184d1a0f5674b452b9f947 "pdflatex"
+  "master-resume.out" 1752550218.67757 365 bb7f26532df143b1f61e142a44d5e00a "pdflatex"
+  "master-resume.tex" 1752550217.92318 14834 3421c723b9c81dbbe79e7be541441ec1 ""
   (generated)
   "master-resume.aux"
   "master-resume.log"

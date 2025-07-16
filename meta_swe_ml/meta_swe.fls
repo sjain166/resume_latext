@@ -1,7 +1,7 @@
-PWD /Users/sidpro/Desktop/WorkPlace/resume_latext/meta_swe
+PWD /Users/sidpro/Desktop/WorkPlace/resume_latext/meta_swe_ml
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/sidpro/Desktop/WorkPlace/resume_latext/meta_swe/meta_swe.tex
+INPUT /Users/sidpro/Desktop/WorkPlace/resume_latext/meta_swe_ml/meta_swe.tex
 OUTPUT meta_swe.log
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/article.cls
