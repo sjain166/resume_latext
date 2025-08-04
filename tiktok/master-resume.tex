@@ -99,7 +99,6 @@
 }{}{0em}{}[\color{Black}\titlerule\vspace{-4pt}]
 
 \newcommand{\projectHeadingColor}{\color{Blue}}
-\newcommand{\github}{\color{Blue}\textbf{GitHub}}
 
 \begin{document}
 
@@ -113,7 +112,7 @@
          \hfill 
        \href{sj99@illinois.edu}{\textbf{Email:} \color{Blue}\textit{sj99@illinois.edu}}  $|$ 
         \textbf{Phone:} {\color{Blue} +1 (602) 596-7491} \\[0.5em]
-        \textbf{Seeking New Grad SWE 2026} \hfill
+        \textbf{Seeking Early Mobile SWE Roles} \hfill
         \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sjain166}{\color{Blue}\textit{/in/sjain166}} $|$ \textbf{GitHub:} \href{https://github.com/sjain166}{\color{Blue}\textit{/sjain166}} \\[0.5em] \hfill
         % \textbf{Urbana, IL (Open To Relocation)} \\[0.2em] \hfill
     \end{minipage}
@@ -135,7 +134,7 @@
     {Arizona State University (ASU)}{August 2020 -- May 2024}
     {Bachelor of Science in Computer Science}{4.00 GPA}
     \resumeItemListStart
-        \resumeItem{Courses Taken: Computer Networks, Digital Design, Distributed Systems, Operating Systems, Software Design Principles}
+        \resumeItem{Courses Taken: Software Design Principles, Operating Systems, Distributed Systems, Computer Networks, Digital Design}
     \resumeItemListEnd
 
     \resumeSubHeadingListEnd
@@ -156,17 +155,6 @@
         \resumeItem{Implemented \textbf{Skip Listeners} with concurrent failed record accumulation, performing batch writes achieving 200x faster processing.}
         \resumeItemListEnd
 
-    
-    \resumeSubheading
-    {Cloud/DevOps Engineer}{January 2025 -- April 2025}
-    {Nexus}{Remote, USA}
-    \resumeItemListStart
-        \resumeItem{Defined \textbf{AWS architecture} for multi-user coding platform, enabling CI/CD, \textbf{ECS scaling}, and region-based production readiness.}
-        \resumeItem{Reduced deployment time by 90\% with \textbf{3 GitHub → CodeBuild CI/CD pipelines} for frontend, backend, and infrastructure.}
-        \resumeItem{Refactored EC2-based stack to serverless AWS \textbf{(ECS, EFS, S3, Route53, DynamoDB)} with CDK, reducing infra overhead by 30\%.}
-        \resumeItem{Delivered production-ready deployment in 6 weeks by aligning infra roadmap with dev workflows and cross-team priorities.}
-    \resumeItemListEnd
-
     \resumeSubheading
     {Software Engineering Fellow}{January 2024 -- May 2024}
     {Andbounds}{Remote, USA}
@@ -176,7 +164,7 @@
         \resumeItem{Migrated iOS application with 40+ pages from storyboard to \textbf{SwiftUI} leveraging MVVM architecture and CocoaPods as PDM}
         \resumeItem{Integrated 15+ Shopify's Rest APIs to the iOS app to authenticate users, fetch order and user details, export scans, and place orders.}
     \resumeItemListEnd
-    
+
     \resumeSubheading
     {Software Development Engineer Intern}{May 2023 -- August 2023}
     {Amazon}{San Diego, CA}
@@ -185,24 +173,6 @@
         \resumeItem{Architected 1-click reusable cloud stack using \textbf{AWS:CDK} to perform batching for downstream services with rate-limited TPS.}
         \resumeItem{Constructed robust error handling mechanism with \textbf{automated retries} for transient errors reducing failure, ensuring 100\% data integrity.}
         \resumeItem{Tested system end-to-end using JUnit5 achieving 100\% code coverage. Deployed real-time monitoring dashboard using \textbf{CloudWatch}.}
-    \resumeItemListEnd
-    
-    \resumeSubheading
-    {Software Engineering Tutor}{August 2021 -- May 2023}
-    {Arizona State University}{Tempe, AZ}
-    \resumeItemListStart
-        \resumeItem{Coached 1000+ students to master MAT courses, \textbf{Data Structure \& Algorithm}, and interview prep, enhancing study strategies.}
-        \resumeItem{Prepared online study materials on \textbf{Java, C++, Java-FX, Calculus I/II}, and introductory business Math, engaging 5k+ students.}
-        \resumeItem{Conducted 20+ review sessions covering essential concepts to prepare for student exams, quizzes, assignments, and class projects.}
-    \resumeItemListEnd
-
-    \resumeSubheading
-    {Undergraduate Teaching Assistant}{August 2021 -- May 2023}
-    {Arizona State University}{Tempe, AZ}
-    \resumeItemListStart
-        \resumeItem{Served as a course assistant for Introduction to Java, Data Structures \& Algorithms, and Introduction to Theoretical Computer Science.}
-        \resumeItem{Collaborated with teaching staff to design weekly lesson plans focused on the course material and student-focused questions.}
-        \resumeItem{Held office hours to address assignment-related questions and provided personalized feedback on coding assignments.}
     \resumeItemListEnd
       
 \resumeSubHeadingListEnd
@@ -213,6 +183,15 @@
 \section{PROJECTS}
 \resumeSubHeadingListStart
     
+    \resumeProjectHeading
+    {\projectHeadingColor\textbf{Study Buddy} $|$ {Full-Stack iOS Developer} $|$ \emph{\color{Black}SwiftUI, Firebase, CoreData, C\#}}{}
+    \resumeItemListStart
+        \resumeItem{Engineered an \textbf{iOS app} leveraging \textbf{MVVM} to facilitate collaboration by providing a platform to search, create, and join study sessions.}
+        \resumeItem{Established \textbf{Firebase-Auth}, offering users sign-in options via Email, Google, and Apple for enhanced authentication flexibility.}
+        \resumeItem{Implemented local \textbf{(CoreData)} and cloud \textbf{(Firestore)} data storage, ensuring seamless data retention and optimized retrieval processes.}
+        \resumeItem{Integrated \textbf{MapKit} to allow users to set study session locations. Streamlined navigation process, ensuring accuracy within a 10m range.}
+    \resumeItemListEnd
+
     \resumeProjectHeading
     {\projectHeadingColor\textbf{PitchPal} $|$ {ML Engineer} $|$ \emph{\color{Black}PyTorch, Torchvision, OpenCV, CNN, MediaPipe}}{}
     \resumeItemListStart
@@ -231,47 +210,6 @@
         \resumeItem{Integrated popularity matrix at tracker; pre-seeded hot chunks across peers, cutting startup latency by 28\%.}
     \resumeItemListEnd
 
-    \resumeProjectHeading
-    {\projectHeadingColor\textbf{Study Buddy} $|$ {Full-Stack iOS Developer} $|$ \emph{\color{Black}SwiftUI, Firebase, CoreData, C\#}}{\href{https://github.com/sjain166/StudyBuddy}{\github}}
-    \resumeItemListStart
-        \resumeItem{Engineered an \textbf{iOS app} leveraging \textbf{MVVM} to facilitate collaboration by providing a platform to search, create, and join study sessions.}
-        \resumeItem{Established \textbf{Firebase-Auth}, offering users sign-in options via Email, Google, and Apple for enhanced authentication flexibility.}
-        \resumeItem{Implemented local \textbf{(CoreData)} and cloud \textbf{(Firestore)} data storage, ensuring seamless data retention and optimized retrieval processes.}
-        \resumeItem{Integrated \textbf{MapKit} to allow users to set study session locations. Streamlined navigation process, ensuring accuracy within a 10m range.}
-    \resumeItemListEnd
-
-    \resumeProjectHeading
-    {\projectHeadingColor\textbf{Banking Easy} $|$ {Network Engineer} $|$ \emph{\color{Black}Java, Network Programming, Sockets, TCP/IP}}{\href{https://github.com/sjain166/CSE-434-Socket_Project}{\github}}
-    \resumeItemListStart
-        \resumeItem{Implemented P2P banking application in \textbf{Java (Sockets)} leveraging \textbf{network programming} to perform parallel processing transactions.}
-        \resumeItem{Created a shared customer cohort with a bank to perform 100+ transactions and update the system state in real-time.}
-        \resumeItem{Reduced error rates by 30\% by deploying advanced checkpoint and rollback algorithms, managing transaction conflicts, data corruption, and network failures.}
-    \resumeItemListEnd
-
-    \resumeProjectHeading
-    {\projectHeadingColor\textbf{FastOrder} $|$ {Full Stack Engineer} $|$ \emph{\color{Black} C\#, ASP.NET, WCF, RESTful}}{}
-    \resumeItemListStart
-        \resumeItem{Deployed a \textbf{Service-Oriented Web App}, using \textbf{ASP.NET}, on Web Server that imitates an E-Commerce Site for 1000+ users.}
-        \resumeItem{Executed 3+ \textbf{ASPX pages}, for Users and Staff, calling Web Services to encrypt data, store cookies, update cart and pay.}
-        \resumeItem{Created 5+ \textbf{WCF \& RESTful Services} to manipulate XML files data, eliminating the need of Database by 100\%.}
-    \resumeItemListEnd
-
-    \resumeProjectHeading
-    {\projectHeadingColor\textbf{Rent Linkers} $|$ {Full Stack Engineer} $|$\emph{\color{Black} React.js, Python, Web3, ETH-Blockchain}}{}
-    \resumeItemListStart
-        \resumeItem{Led team of 4 to develop MVP of Blockchain-based Web3 DApp facilitating tech rental using Python and React.js, ETH-Chain.}
-        \resumeItem{Upgraded Decentralized-Dispute-Mechanism to reduce on-chain computation by 80\%, utilizing Cartesi Rollback DApp Framework.}
-        \resumeItem{Secured 3 prestigious awards: Best Utilization of Cartesi, Most Unique Concept, and 4th Place Overall for Project Implementation.}
-    \resumeItemListEnd
-
-    \resumeProjectHeading
-    {\projectHeadingColor\textbf{VeMove} $|$ {Full Stack Engineer} $|$\emph{\color{Black} React.js, Python, Web3, ETH-Blockchain}}{}
-    \resumeItemListStart
-        \resumeItem{Built a blockchain-powered platform on VeChain using Solidity under 36 hours to track eco-friendly user travel and issue reward tokens.}
-        \resumeItem{Designed custom movement detection algorithms, earning a \textbf{\$1000 travel scholarship} for innovation in sustainable mobility.}
-        \resumeItem{Developed a full-stack web app with \textbf{Next.js and integrated Google Maps API} for precise user tracking and automated rewards.}
-    \resumeItemListEnd
-
 \resumeSubHeadingListEnd
 
 \vspace{-1em}
@@ -281,10 +219,11 @@
 {\fontsize{10}{12}\selectfont
 \renewcommand{\arraystretch}{1.3}
 \begin{tabularx}{\textwidth}{@{\hspace{0.10in}}p{4cm}X@{}}
-    \textbf{Languages:} & Java, C/C++, Python, C\#, Typescript \\
-    \textbf{Development:} & iOS \{SwiftUI\}, Web \{ASP.NET, RestAPI, WSDL, React.js\} \\
-    \textbf{Databases and Tools:} & MySQL, JDBC, Git, JUnit 5, Spring Batch, XML, JSON, Linux, CoreML, CocoaPods \\
-    \textbf{Cloud Services:} & AWS \{CDK, Lambda, SQS, S3, RDS, EC2, API-Gateway\}, Firebase \{Auth, Firestore\}
+    \textbf{Mobile Development:} & iOS \{SwiftUI, CoreML, CocoaPods\}, Android \{Java\} \\
+    \textbf{Languages:} & Java, Swift, Python, C/C++, TypeScript \\
+    \textbf{Development:} & Object-Oriented Design, Software System Design, MVVM Architecture \\
+    \textbf{Tools \& Frameworks:} & Git, JUnit 5, Spring Batch, Firebase \{Auth, Firestore\}, CoreData \\
+    \textbf{Cloud Services:} & AWS \{CDK, Lambda, SQS, S3, CloudWatch\}
 \end{tabularx}
 } 
 
